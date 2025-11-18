@@ -1,5 +1,12 @@
 {
-    "engines": {
-        "node": "22.x"
-    }
+  "name": "yt-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/index.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
